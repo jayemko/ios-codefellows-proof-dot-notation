@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Shoe.h"
 
 @interface ProofViewController : UIViewController
+
 
 @end
