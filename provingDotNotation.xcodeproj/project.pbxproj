@@ -21,6 +21,7 @@
 		3C31590617DE7C2B00CCF3F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3158E817DE7C2B00CCF3F8 /* UIKit.framework */; };
 		3C31590E17DE7C2B00CCF3F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C31590C17DE7C2B00CCF3F8 /* InfoPlist.strings */; };
 		3C31591017DE7C2B00CCF3F8 /* provingDotNotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C31590F17DE7C2B00CCF3F8 /* provingDotNotationTests.m */; };
+		3C31591B17DE7C9000CCF3F8 /* Shoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C31591A17DE7C9000CCF3F8 /* Shoe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3C31590B17DE7C2B00CCF3F8 /* provingDotNotationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "provingDotNotationTests-Info.plist"; sourceTree = "<group>"; };
 		3C31590D17DE7C2B00CCF3F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C31590F17DE7C2B00CCF3F8 /* provingDotNotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = provingDotNotationTests.m; sourceTree = "<group>"; };
+		3C31591917DE7C9000CCF3F8 /* Shoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoe.h; sourceTree = "<group>"; };
+		3C31591A17DE7C9000CCF3F8 /* Shoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3C3158F617DE7C2B00CCF3F8 /* Main.storyboard */,
 				3C3158F917DE7C2B00CCF3F8 /* ProofViewController.h */,
 				3C3158FA17DE7C2B00CCF3F8 /* ProofViewController.m */,
+				3C31591917DE7C9000CCF3F8 /* Shoe.h */,
+				3C31591A17DE7C9000CCF3F8 /* Shoe.m */,
 				3C3158FC17DE7C2B00CCF3F8 /* Images.xcassets */,
 				3C3158EB17DE7C2B00CCF3F8 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C31591B17DE7C9000CCF3F8 /* Shoe.m in Sources */,
 				3C3158F117DE7C2B00CCF3F8 /* main.m in Sources */,
 				3C3158F517DE7C2B00CCF3F8 /* ProofAppDelegate.m in Sources */,
 				3C3158FB17DE7C2B00CCF3F8 /* ProofViewController.m in Sources */,

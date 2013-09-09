@@ -17,13 +17,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    Shoe *shoe = [[Shoe alloc] init];
+    NSNumber *value1 = @12;
+    NSNumber *value2 = @10;
+    
+    shoe.material = nil;
+    shoe.size = nil;
+    
+    NSLog(@"Only one Shoe object created: %@",[shoe description]);
+    
+    // setting with dot notation
+    NSLog(@"The shoe size property is currently: %@", shoe.size);
+    shoe.size = value1;
+    // get with dot notation
+    NSLog(@"Change shoe size property to %@", value1);
+    NSLog(@"After setting shoe.size, the shoe size property is now: %@", shoe.size);
+    
+    // set with setter
+    NSLog(@"Change size to %@", value2);
+    [shoe setSize:value2];
+    // get from getter
+    NSLog(@"The shoe size property is now: %@", [shoe size]);
+    
+    // same object as original
+    NSLog(@"Same Shoe object: %@",[shoe description]);
 }
 
 @end
+
+
+
+
+
+
+
+
+
